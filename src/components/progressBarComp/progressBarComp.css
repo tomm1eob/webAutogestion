@@ -1,0 +1,12 @@
+.main {
+    display: flex; /* Hace que el contenedor use flexbox */
+    justify-content: center; /* Centra la barra horizontalmente */
+    align-items: center; /* Centra la barra verticalmente */
+    height: 150px;
+  }
+  
+.main > div {
+    width: 450px; /* Ajusta el ancho de la barra */
+  }
+
+  
