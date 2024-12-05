@@ -6,13 +6,17 @@
   }
   
 .main > div {
-    width: 80vh; /* Ajusta el ancho de la barra */
+    width: 85vh; /* Ajusta el ancho de la barra */
   }
 
   .progressBar-Custom{
     background-color: #cdcdcd;
-    border-radius: 8px;
+    border-radius: 6px;
     padding: 20px;
+  }
+
+  .inter-progressBar-Custom{
+    width: 72vh;
   }
 
   
