@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 export const HeaderComp = () => {
   return (
     <div>
-        <Navbar bg="dark" data-bs-theme="dark">
+        <Navbar bg="dark" data-bs-theme="dark" >
         <Container>
           <Navbar.Brand href="#inicio">Autogestión</Navbar.Brand>
           <Nav className="me-auto">

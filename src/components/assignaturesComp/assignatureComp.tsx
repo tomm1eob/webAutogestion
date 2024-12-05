@@ -1,12 +1,13 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
+import "./assignatureComp.css"
 
 export const AssignatureComp = () => {
   return (
     <div style={{display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <div style={{ width: "100vh"}}>
-            <h1 style={{fontSize: "25px"}}>Materias del semestre</h1>
-            <Table striped variant="dark">
+        <div style={{ paddingTop: "35px"}}>
+            <h1 style={{fontSize: "25px"}}>Plan de estudio</h1>
+            <Table className='table-custom' striped variant="dark">
                 <thead>
                     <tr>
                     <th></th>

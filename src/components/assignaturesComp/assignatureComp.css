@@ -1,0 +1,7 @@
+.table-custom {
+    border-radius: 8px; /* Ajusta el valor según el nivel de redondeo que desees */
+    overflow: hidden; /* Asegura que los bordes del contenido interno no sobresalgan */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: añade un efecto de sombra */
+    width: 80vh;
+  }
+  
